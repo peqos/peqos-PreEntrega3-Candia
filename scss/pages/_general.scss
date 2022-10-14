@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "FF_VnAvantH-Bold", sans-serif;
+  }
+.fuente {
+    font-family: "FF_VnAvantH-Bold", sans-serif;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  /* ocultando carousel en mobile */
+  .carousel {
+    display: none;
+  }
+  /* fondo menor a 992px */
+  .imagen-fondo {
+    height: 50rem;
+    background-image: url(../img/imagen-prueba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .navbar-toggler {
+    background-color: white;
+  }
+  /* tamaño de las imagenes redes en el header(ya se que tengo que editarlas y hacerlas mas chica pero no me dio el tiempo perdon) */
+  header-info-redes div div img,
+  .header-redes img,
+  .header-telefono img,
+  .header-mail img {
+    height: 15px;
+    width: 15px;
+  }
+  .header-redes a {
+    text-decoration: none;
+  }
+  /* estilos al header */
+  header {
+    position: fixed;
+    z-index: 1;
+    background-color: #0000003f;
+    width: 100%;
+  }
+  .contenedor {
+    display: none;
+  }
+  .contenedor-logo-desktop {
+    display: none;
+  }
+  .logo-mobile {
+    display: none;
+  }
+  .fotos-principales {
+    margin-bottom: 2rem;
+  }
+  .contenedor-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  /* subrallado cuando paso por encima */
+  .boton-hover:hover {
+    border-bottom: 1px solid white;
+  }
+  body {
+    background-color: #f4f6fc;
+  }
+  .fotos-redes {
+    display: flex;
+    gap: 1rem;
+  }
+  .fotos-redes a img {
+    height: 20px;
+    width: 20px;
+  }
+
+
+
+/* inicio del footer de todas las paginas */
+.footer-general {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .footer-logoredes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+  }
+  .footer-redescorreo {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  footer p {
+    margin-bottom: 0;
+  }
+  .footer-redes img,
+  .footer-datos img,
+  .footer-mail img {
+    height: 15px;
+    width: 15px;
+  }
+  .footer-redes {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  /* fin del footer de todas las paginas */
+  @media screen and (min-width: 500px) {
+    .footer-general {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .footer-logoredes {
+      margin-left: 1rem;
+    }
+    .footer-redescorreo {
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+  }
+  @media screen and (min-width: 700px) {
+    .footer-general {
+      margin-left: 0;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .footer-logoredes {
+      flex-direction: row;
+      gap: 1rem;
+      margin-left: 0;
+    }
+    .footer-redescorreo {
+      flex-direction: row;
+      gap: 1rem;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .contenedor-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+    }
+    .logo-desktop-verdadero {
+      align-items: center;
+      margin-top: 1rem;
+    }
+    .logo-mobile {
+      display: none;
+    }
+    .logo-desktop {
+      display: none;
+    }
+    .contenedor {
+      display: flex;
+      justify-content: center;
+    }
+    .carousel {
+      display: block;
+    }
+    .barra-nav-fondo {
+      display: block;
+      background-color: black;
+      height: 135.2px;
+      width: 100%;
+    }
+    .imagen-fondo {
+      display: none;
+    }
+  
+    .imagen-fondo-ministerios {
+      display: block;
+    }
+    .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+      justify-content: center;
+    }
+  }

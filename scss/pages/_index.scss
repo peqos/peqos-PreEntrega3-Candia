@@ -1,0 +1,151 @@
+  /* inicio de cartas del index*/
+  .ayudarte-h1{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  .features {
+    background-color: #f4f6fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .feature-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+    min-height: 470px;
+    gap: 1rem;
+    text-align: center;
+    width: 84%;
+  }
+  .feature-contenedor-cartas {
+    background-color: white;
+    width: 300px;
+    height: 280px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.50);
+  }
+  section div div div h1 {
+    margin-bottom: 15px;
+  }
+  section div div div p {
+    margin-bottom: 30px;
+  }
+  .boton-accion {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0.8rem;
+    
+    border-radius: 35px;
+    background-color: #103b6e;
+  }
+  .boton-accion:hover{
+    color: white;
+    background-color: #174e91;
+  }
+  /* fin de cartas del index*/
+
+  /* inicio nuestros horarios movil */
+  .container__diashorarios{
+    text-align: center;
+  }
+  .container__diashorarios__reuniones__transmision__presenciales{
+    
+    margin-bottom: 1rem;
+  }
+  .container__diashorarios{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(16,59,110,1) 100%);
+    color: white;
+    width: 100%;
+  }
+  /* inicio footer movil */
+  .footer-index{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .footer-logoredes-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem
+  }
+  .footer-redescorreo-index{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  /* fin footer movil */
+  @media screen and (min-width: 500px){
+    .footer-index{
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .footer-logoredes-index{
+      margin-left: 1rem;
+    }
+    .footer-redescorreo-index{
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+  }
+  /* inicio nuestros horarios mayor a 615px*/
+  @media screen and (min-width: 615px) {
+    .feature-contenedor{
+      width: 80%;
+    }
+  .container__diashorarios{
+    text-align: start;
+    width: 100%;
+  }
+  .container__diashorarios__horarios{
+    text-align: center;
+  }
+  .container__diashorarios__horarios-h2{
+    padding-top: 0.5rem;
+  }
+  .container__diashorarios__reuniones__transmision{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .container__diashorarios__reuniones__transmision__presenciales{
+    border-bottom:rgb(225, 225, 225) 0px solid ;
+    margin-bottom: 1rem;
+  }
+  .container__diashorarios__reuniones__transmision__online{
+    border-left: rgba(225, 225, 225, 0.518) 3px solid;
+    padding-left: 1rem;
+    
+  }
+  .footer-index{
+    margin-left: 0;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer-logoredes-index{
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 0;
+  }
+  .footer-redescorreo-index{
+    flex-direction: row;
+    gap: 1rem;
+  }
+  /* fin nuestros horarios*/ 
+    }
+    
