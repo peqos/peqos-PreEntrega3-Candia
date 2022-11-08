@@ -116,6 +116,25 @@
     gap: 0.4rem;
   }
   /* fin del footer de todas las paginas */
+
+  .Ministerio-titulo{
+    text-align: center;
+  }
+
+  .contenedor-info-ministerios{
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .ministerios-img{
+    
+      width: 70%;
+      height: 300px;
+      object-fit: cover;
+      object-position: center;
+      margin-bottom: 1rem;
+  }
   @media screen and (min-width: 500px) {
     .footer-general {
       flex-direction: row;
